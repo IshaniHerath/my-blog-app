@@ -1,0 +1,27 @@
+.home-container {
+    background-color: rgb(7, 11, 56);
+    color: white;
+    text-align: center;    
+    height: 500px;
+    // background-clip: padding-box;
+    // box-shadow: inset 0 0 20px rgb(241, 242, 250);
+}
+
+.hello{
+    font-size: 30px;
+}
+
+.name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+.example-card {
+    max-width: 500px;
+    max-height: 500px;
+    // padding: 50px;
+    // display: flex;
+    // justify-content: center;
+    
+    border-radius: 100%;
+}
