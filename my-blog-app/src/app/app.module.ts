@@ -1,19 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './features/components/home/home.component';
-import { AboutMeComponent } from './features/components/about-me/about-me.component';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { AppComponent } from './app.component';
+import { HomeComponent } from './features/home/home.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    CommonModule,
-    HomeComponent,
-    AboutMeComponent,
-    // MatSlideToggleModule,
-  ]
+  declarations: [],
+  imports: [CommonModule, HomeComponent],
 })
-export class AppModule { }
+export class AppModule {}

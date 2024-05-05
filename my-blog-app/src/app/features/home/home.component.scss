@@ -1,0 +1,41 @@
+@import '../../../styles.scss'; 
+
+.header-container {
+    background-color: #e7c9c2;
+    color: white; //text color
+    text-align: center;    
+    height: 500px;
+    padding: 30px;
+}
+
+.hello{
+    font-size: 25px;
+    color: black;
+}
+
+.header-description{
+    color: black;
+}
+
+.name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+}
+
+.header-card{
+    opacity: 80%;
+    background-color: rgb(226, 166, 166);
+    box-shadow: 4px 4px 4px 8px rgb(226, 166, 166);
+    transition: transform 0.3s ease;
+    margin: 40px;
+    padding: 50px;
+}
+
+.header-image-card {
+    text-align: left;
+}
+
+.image {
+    border-radius: 50%;
+    max-height: 40%;
+}
